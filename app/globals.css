@@ -1,14 +1,43 @@
-@tailwind base;
+/* @tailwind base;
 @tailwind components;
-@tailwind utilities;
-
+@tailwind utilities; */
+a{
+  text-decoration: none !important;
+}
 :root {
-  --foreground-rgb: 0, 0, 0;
+  /* --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+  --background-end-rgb: 255, 255, 255; */
+  
+  --blue:#0042b4;
+  --blue2:#013896;
+  --light-blue:#0d6dfd5a;
+  --red-orange:#fe3107;
+  --red-orange2:#dd2500;
+  --light-red-orange2:#dd25004c;
+  --green: #20af2e;
+  --light-green: #20af2e4c;
+  --green2: #137d1d;
+  --light-green2: #137d1d4c;
+  --white:#ffffff;
+  --light-white:#f0f0f03d;
+  --gray:#cacaca;
+  --dark-gray:#8d8d8d;
+  --light-gray:#efefef;
+  --light-gray2:#e9e9e9;
+  --orange: #FFB300;
+  --light-orange: #ffb3004c;
+  --light-orange2: #ffb3002a;
+  --darker-orange:#e6a40b;
+  --background-gray:#f5f5f5;
+  --darker-gray:#797979;
+  --brown:#a46600;
+  --cream:#ffd694;
+  --box-shadow:0 0 15px 0 #5656564d;
+  --box-shadow2:0 0 15px 0 #56565628;
 }
 
-@media (prefers-color-scheme: dark) {
+/* @media (prefers-color-scheme: dark) {
   :root {
     --foreground-rgb: 255, 255, 255;
     --background-start-rgb: 0, 0, 0;
@@ -24,4 +53,4 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
-}
+} */
